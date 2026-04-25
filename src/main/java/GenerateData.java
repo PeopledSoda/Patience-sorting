@@ -15,7 +15,7 @@ public class GenerateData {
             for (int j = 0; j <size;j++){
                 int num = rand.nextInt(100000);
 
-                writer.write(num+"\n");
+                writer.write(num+" ");
             }
             writer.close();
 
