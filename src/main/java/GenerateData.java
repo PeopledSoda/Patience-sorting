@@ -10,7 +10,7 @@ public class GenerateData {
         for (int i = 0; i <= datasets;i++){
             int size = 100 + rand.nextInt(9901);
 
-            FileWriter writer = new FileWriter("data_"+i+".txt");
+            FileWriter writer = new FileWriter("data/data_" + i + ".txt");
 
             for (int j = 0; j <size;j++){
                 int num = rand.nextInt(100000);
