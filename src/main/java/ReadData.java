@@ -10,7 +10,7 @@ public class ReadData {
         String[] parts = line.split(" ");
 
         for (String p : parts){
-            if (p.isEmpty()){
+            if (!p.isEmpty()){
                 list.add(Integer.parseInt(p));
             }
         }
